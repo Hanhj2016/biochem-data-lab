@@ -1,0 +1,17 @@
+sample_id,group,cell_viability
+S01,control,100
+S02,control,98
+S03,control,101
+S04,control,99
+S05,low_dose,92
+S06,low_dose,90
+S07,low_dose,94
+S08,low_dose,91
+S09,medium_dose,75
+S10,medium_dose,78
+S11,medium_dose,73
+S12,medium_dose,76
+S13,high_dose,42
+S14,high_dose,39
+S15,high_dose,44
+S16,high_dose,41

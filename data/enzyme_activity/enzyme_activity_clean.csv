@@ -1,0 +1,9 @@
+sample_id,group,enzyme_activity
+E001,control,102
+E002,control,98
+E003,control,101
+E004,control,99
+E005,treatment,88
+E006,treatment,85
+E007,treatment,90
+E008,treatment,87

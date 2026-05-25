@@ -1,0 +1,13 @@
+sample_id,group,enzyme_activity
+E001,control,102
+E002,control,98
+E003,control,101
+E004,control,99
+E005,low_inhibitor,94
+E006,low_inhibitor,92
+E007,low_inhibitor,95
+E008,low_inhibitor,91
+E009,high_inhibitor,71
+E010,high_inhibitor,69
+E011,high_inhibitor,74
+E012,high_inhibitor,70

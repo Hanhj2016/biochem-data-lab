@@ -1,0 +1,9 @@
+Title:
+Fictional treatment-associated expression changes suggest possible biomarker candidates
+
+Abstract:
+This fictional study explored whether a treatment changes expression of selected genes in cultured cells. A small panel of genes related to inflammation, apoptosis, and cell proliferation was measured under control and treatment conditions. Several genes showed increased expression after treatment, while housekeeping genes remained relatively stable. The study suggests that selected genes may be useful for practicing biomarker interpretation. However, the dataset is small, synthetic, and lacks normalization, statistical testing, and independent validation.
+
+Expected topic: biomarker exploration
+Expected method: small gene expression panel
+Expected limitation: synthetic, small, lacks normalization and validation

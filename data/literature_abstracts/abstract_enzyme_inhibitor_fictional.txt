@@ -1,0 +1,9 @@
+Title:
+A fictional enzyme inhibitor reduces catalytic activity in an in vitro assay
+
+Abstract:
+This fictional study evaluated whether Inhibitor A reduces the activity of a purified metabolic enzyme. Enzyme activity was measured using a colorimetric substrate assay under control and inhibitor-treated conditions. The inhibitor-treated samples showed lower average enzyme activity than controls across repeated measurements. However, the experiment used a small number of replicates and did not test multiple inhibitor concentrations. Additional dose-response experiments and independent replicates would be needed to support stronger conclusions.
+
+Expected target: metabolic enzyme
+Expected method: colorimetric enzyme activity assay
+Expected limitation: small replicate count and no dose-response design

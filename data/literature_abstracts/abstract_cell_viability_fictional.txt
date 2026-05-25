@@ -1,0 +1,9 @@
+Title:
+A fictional compound decreases cell viability in a dose-dependent assay
+
+Abstract:
+This fictional study investigated the effect of Compound Z on cell viability across multiple concentrations. Cells were exposed to increasing concentrations of the compound, and viability was measured using a plate-based assay. The average viability decreased as concentration increased, suggesting a possible dose-response pattern in the synthetic dataset. However, the study did not include enough biological replicates to estimate potency confidently, and no orthogonal assay was used to confirm the result.
+
+Expected topic: cell viability / dose response
+Expected method: plate-based viability assay
+Expected limitation: limited replicates and no orthogonal validation

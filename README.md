@@ -1,3 +1,14 @@
+# BioChem Data Lab
+
+**A Python + R + Jupyter starter kit for Biochemistry and life science data analysis**
+
+## Project Positioning
+
+**BioChem Data Lab** is the foundation track for students who want to explore how data analysis supports Biochemistry and life science learning.
+
+It can later connect to the broader **BioBridge AI Lab** roadmap, including BioDose AI, ProteinLens, TargetReader AI, and GeneShift.
+
+
 # Biochemistry Statistics: Python vs R Jupyter Notebook Comparison
 
 ## Purpose
@@ -164,3 +175,95 @@ They add more graphical representation and industry-inspired thinking while stay
 These are learning notebooks with synthetic data.
 
 Do not treat IC50 estimates, gene clusters, or outlier flags as real biological conclusions.
+
+
+---
+
+# Additional Guides
+
+```text
+Setup_Guide/00_Quick_Start.md
+Setup_Guide/01_Windows11_Setup.md
+Setup_Guide/02_Ubuntu24_Setup.md
+Setup_Guide/03_macOS_Setup.md
+Setup_Guide/04_R_Kernel_IRkernel_Setup.md
+Setup_Guide/05_Troubleshooting.md
+Learning_Path_Chooser.md
+Optional_Challenge_Task_Menu.md
+README_for_Students.md
+README_for_Mentors.md
+```
+
+
+---
+
+# Enriched Scenario Data and Code Recipes
+
+This version adds:
+
+```text
+data/enzyme_activity/
+data/drug_response/
+data/gene_expression/
+data/literature_abstracts/
+expected_outputs/
+challenge_prompts/
+code_recipes/python/
+code_recipes/r/
+src/
+R/
+example_outputs/
+```
+
+## Recommended Next Activities
+
+1. Pick one scenario dataset.
+2. Run a matching Python notebook.
+3. Run the matching R notebook.
+4. Compare syntax, plot quality, and interpretation.
+5. Try a challenge prompt.
+6. Compare your interpretation with the expected output file.
+
+## Good First Scenario
+
+```text
+data/drug_response/drug_response_clear.csv
+challenge_prompts/Drug_Response_Clear_Challenge.md
+expected_outputs/drug_response_clear_expected.md
+```
+
+## Good First Advanced Scenario
+
+```text
+data/drug_response/drug_response_outlier.csv
+challenge_prompts/Drug_Response_QC_Outlier_Challenge.md
+expected_outputs/drug_response_outlier_expected.md
+```
+
+---
+
+# GitHub Repository
+
+Recommended repository name:
+
+```text
+biochem-data-lab
+```
+
+Repository description:
+
+```text
+A Python + R + Jupyter starter kit for Biochemistry and life science data analysis.
+```
+
+Suggested topics:
+
+```text
+biochemistry, life-science, python, r, jupyter-notebook, statistics, data-analysis, bioinformatics, plotly, ggplot2, education
+```
+
+A detailed GitHub setup guide is included:
+
+```text
+GITHUB_REPOSITORY_GUIDE.md
+```

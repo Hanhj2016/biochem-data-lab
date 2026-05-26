@@ -4,6 +4,36 @@
 
 This file helps mentors, parents, or teachers use BioChem Data Lab in a short workshop or study session.
 
+Recommended approach:
+
+```text
+1. Start with one Python notebook.
+2. Let the student run the cells.
+3. Focus on the figure and interpretation.
+4. Then show the matching R notebook if useful.
+5. Ask which version feels clearer.
+6. Let the student choose the next path.
+```
+
+Start with:
+
+```text
+small synthetic data
+one table
+one plot
+one interpretation
+```
+
+Avoid starting with:
+
+```text
+large real datasets
+full RNA-seq pipelines
+advanced statistics
+deployment
+complex project structure
+```
+
 ---
 
 # 60-Minute Workshop
@@ -101,4 +131,15 @@ one dataset
 one plot
 one interpretation
 one next question
+```
+
+Good discussion questions:
+
+```text
+What is the biological question?
+What are the variables?
+What does the plot show?
+What are the limitations?
+Which language felt clearer?
+What would you test next?
 ```

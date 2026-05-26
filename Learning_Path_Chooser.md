@@ -67,3 +67,19 @@ Most students:
 ```text
 Path A → Path B → then choose Path C or D
 ```
+
+## Path E: University Lab Skills Path
+
+Best for students who want practical lab-data topics beyond the first statistics notebooks.
+
+Notebooks:
+
+```text
+14_Experimental_Design_and_Replicates_Python.ipynb
+15_Enzyme_Kinetics_Michaelis_Menten_Python.ipynb
+16_Standard_Curve_Bradford_Assay_Python.ipynb
+17_Assay_QC_Plate_Layout_Python.ipynb
+18_qPCR_Delta_Delta_Ct_Python.ipynb
+19_Growth_Curve_OD600_Python.ipynb
+20_Sequence_Basics_GC_Content_Python.ipynb
+```

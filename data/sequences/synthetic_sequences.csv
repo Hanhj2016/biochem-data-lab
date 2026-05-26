@@ -1,0 +1,6 @@
+sequence_id,description,dna_sequence
+SEQ001,synthetic promoter-like fragment,ATGCGTACGTTAGCGCGTATATAAGGCTAGCTAGGCTA
+SEQ002,synthetic GC-rich fragment,GGGCGCGGCCGCTAGCGCGGATCCGCGCGTACGCGC
+SEQ003,synthetic AT-rich fragment,ATATTAATATTTAGATATATTAAGGATATTTAACTA
+SEQ004,synthetic coding-like fragment,ATGGCTGCTGAACTGACTGGTAAAGCTGCTTGA
+SEQ005,synthetic motif practice fragment,CCATGACCTTGAATTCGGATCCATGTTTACGA

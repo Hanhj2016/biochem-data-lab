@@ -2,16 +2,16 @@
 
 ## Main Observation
 
-Some genes are up-regulated under treatment, while others are down-regulated. Housekeeping-like genes are relatively stable.
+Some genes are higher in the treatment samples, some are lower, and housekeeping-like genes stay relatively stable in this toy dataset.
 
-## Data Quality
+## Data Quality Notes
 
-This is a toy dataset suitable for practicing fold change.
+The replicate values are tidy and consistent enough for practicing mean expression, fold change, and log2 fold change.
 
 ## Suggested Next Step
 
-Calculate log2 fold change and create a bar chart.
+Calculate log2 fold change for each gene and create a bar chart sorted from lower expression to higher expression.
 
-## Caution
+## Caution / Limitation
 
-Real gene expression analysis needs normalization, quality control, and statistical testing.
+Fold change alone does not prove biological function or diagnostic meaning. Real gene expression analysis needs normalization, quality control, statistical testing, and validation.

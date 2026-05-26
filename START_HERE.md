@@ -96,6 +96,12 @@ Quick First Success
 → Drug Response or Gene Expression Path
 ```
 
+For more university lab-data topics after the first notebooks, open:
+
+```text
+STUDENT_PROJECT_MENU.md
+```
+
 ---
 
 # Step 5: Try a Challenge
@@ -103,7 +109,7 @@ Quick First Success
 Open:
 
 ```text
-Optional_Challenge_Task_Menu.md
+STUDENT_PROJECT_MENU.md
 ```
 
 Good first challenge:
@@ -113,6 +119,14 @@ QC Detective
 ```
 
 This uses visual plots to find possible assay data problems.
+
+Other good first choices:
+
+```text
+Enzyme Activity Mini Report
+Gene Expression Fold Change
+Drug Response Screening Challenge
+```
 
 ---
 
@@ -147,3 +161,12 @@ This allows Python vs R comparison.
 ```
 
 That is already useful scientific data practice.
+
+After a notebook, check whether you can answer:
+
+```text
+What data did I use?
+What calculation did I do?
+What does the figure show?
+What are the limitations?
+```

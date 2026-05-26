@@ -20,6 +20,12 @@ Added / planned:
 enzyme activity scenarios
 drug response scenarios
 gene expression scenarios
+enzyme kinetics scenarios
+standard curve scenarios
+plate QC scenarios
+qPCR scenarios
+growth curve scenarios
+synthetic sequence scenarios
 fictional literature abstracts
 expected outputs
 challenge prompts

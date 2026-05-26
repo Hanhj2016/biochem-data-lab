@@ -71,18 +71,20 @@ The repository root should look like:
 
 ```text
 README.md
-PROJECT_NAME.md
-README_for_Students.md
-README_for_Mentors.md
+START_HERE.md
+STUDENT_PROJECT_MENU.md
 Learning_Path_Chooser.md
-Optional_Challenge_Task_Menu.md
+WORKSHOP_PLAN.md
 Setup_Guide/
 data/
 notebooks/
+expected_outputs/
+challenge_prompts/
 code_recipes/
 src/
 R/
 example_outputs/
+tests/
 environment.yml
 ```
 

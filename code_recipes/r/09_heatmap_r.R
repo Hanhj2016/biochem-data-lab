@@ -4,7 +4,7 @@ library(tidyverse)
 plot_expression_heatmap <- function(expr) {
   expr_z <- t(scale(t(as.matrix(expr))))
   heatmap_df <- as.data.frame(expr_z) %>%
-    rownames_to_column("gene") %>%
+    mutate(gene = rownames(expr_z)) %>%
     pivot_longer(-gene, names_to = "sample", values_to = "z_score")
 
   ggplot(heatmap_df, aes(x = sample, y = gene, fill = z_score)) +

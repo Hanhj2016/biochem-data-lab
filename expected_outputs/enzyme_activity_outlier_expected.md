@@ -2,16 +2,16 @@
 
 ## Main Observation
 
-One control sample has unusually high enzyme activity.
+Most treatment samples have lower enzyme activity than the control samples, but one treatment replicate is unusually high compared with the rest of its group.
 
-## Data Quality Issue
+## Data Quality Notes
 
-The high value may distort the group mean.
+The unusual value can pull the treatment mean upward and make the group comparison less clear. A dot plot or box plot should be used alongside summary statistics.
 
 ## Suggested Next Step
 
-Use a box plot or scatter plot, check experimental notes, and compare mean vs median.
+Flag the unusual replicate for review, compare mean and median values, and write down what lab notes would need to be checked.
 
-## Caution
+## Caution / Limitation
 
-Do not remove a value only because it is inconvenient.
+Do not remove a value only because it changes the result. This is synthetic learning data and does not prove an enzyme mechanism.

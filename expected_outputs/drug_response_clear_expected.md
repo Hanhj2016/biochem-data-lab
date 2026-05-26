@@ -2,16 +2,16 @@
 
 ## Main Observation
 
-DrugA and DrugB both show lower mean cell viability at higher concentrations. DrugA appears stronger than DrugB at 10 uM in this synthetic dataset.
+Both synthetic compounds show lower mean cell viability at higher concentrations. CompoundA shows a stronger decrease than CompoundB in this teaching dataset.
 
-## Data Quality
+## Data Quality Notes
 
-The dataset is clean enough for a first learning exercise.
+The replicate values are consistent enough for a first dose-response visualization. This is a clean practice dataset for calculating mean, SD, SEM, and plotting grouped curves.
 
 ## Suggested Next Step
 
-Add more concentrations near the middle of the curve and repeat with more biological replicates.
+Add more concentrations near the middle of the response curve and compare the pattern with a noisier or outlier-containing dataset.
 
-## Caution
+## Caution / Limitation
 
-This is synthetic data and should not be interpreted as real drug efficacy evidence.
+This is synthetic data for learning. Do not describe the result as clinical evidence, treatment evidence, or real drug efficacy.

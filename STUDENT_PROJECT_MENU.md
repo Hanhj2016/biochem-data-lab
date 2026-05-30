@@ -32,6 +32,12 @@ These optional prompts are short project briefs that pair with the scenario data
 | Gene Expression Small Clean | fold-change practice | `challenge_prompts/Gene_Expression_Small_Clean_Challenge.md` | sorted log2 fold-change chart | Easy |
 | Gene Expression Heatmap | expression matrix patterns | `challenge_prompts/Gene_Expression_Heatmap_Challenge.md` | heatmap and optional PCA map | Medium |
 | Literature Abstract Journal Club | scientific reading | `challenge_prompts/Literature_Abstract_Challenge.md` | discussion notes | Easy |
+| QC Plate Batch Review | QC analyst role scenario | `challenge_prompts/QC_Plate_Batch_Review_Challenge.md` | batch summary or plate QC chart | Medium |
+| Research Assistant Replicate Log | replicate and design review | `challenge_prompts/Research_Assistant_Replicate_Log_Challenge.md` | replicate-aware bar or dot plot | Medium |
+| Assay Development Day Variability | day-to-day robustness | `challenge_prompts/Assay_Development_Day_Variability_Challenge.md` | dose-response by assay day | Medium |
+| Molecular Biology qPCR Review | Ct replicate QC | `challenge_prompts/Molecular_Biology_qPCR_Review_Challenge.md` | Ct spread bar chart | Medium |
+| Bioinformatics Sequence Triage | sequence summary and review | `challenge_prompts/Bioinformatics_Sequence_Triage_Challenge.md` | GC-content bar chart | Easy / Medium |
+| AI Figure Caption Review | AI scientific communication | `challenge_prompts/AI_Figure_Caption_Review_Challenge.md` | review-status bar chart | Easy / Medium |
 
 Suggested first challenge:
 
@@ -50,6 +56,8 @@ useful for lab data thinking
 
 ## Advanced Challenge Projects
 
+These projects are advanced or applied extensions. Some reuse earlier concepts, but each adds a new lab-data skill such as model fitting, calibration, plate-layout QC, qPCR normalization, time-course analysis, or sequence analysis. Python notebooks are primary for this section unless an R notebook is explicitly listed.
+
 | Project | Goal | Dataset | Notebook | Visual Output | Time | Skill Practiced |
 |---|---|---|---|---|---|---|
 | Graphical Showcase Tour | See a visual overview of many BioChem Data Lab topics. | multiple synthetic datasets | `notebooks/11_Graphical_Showcase_Python.ipynb` | 10 interactive figures | 45-60 min | Scientific visualization selection |
@@ -62,7 +70,36 @@ useful for lab data thinking
 | Sequence Basics Explorer | Summarize short synthetic DNA sequences. | `data/sequences/synthetic_sequences.csv` | `notebooks/20_Sequence_Basics_GC_Content_Python.ipynb` | GC-content bar chart | 60-75 min | Intro sequence analysis |
 | Experimental Design Reviewer | Explain how replicates, controls, and variability affect interpretation. | `data/enzyme_activity/enzyme_activity_three_groups.csv` | `notebooks/14_Experimental_Design_and_Replicates_Python.ipynb` | Replicate plot and group summary | 90 min | Experimental design thinking |
 | BioDose AI Bridge | Prepare reusable notebook logic for a future app. | `data/drug_response/drug_response_clear.csv`, `data/drug_response/drug_response_outlier.csv` | `notebooks/13_BioDose_AI_Bridge_Python.ipynb` | Dose-response chart and ranking table | 90-120 min | Workflow design and quality scoring |
+| AI/LLM Lab Summary Reviewer | Review synthetic AI-style lab summaries for unsupported claims and safer wording. | `data/ai_literacy/ai_lab_summary_review_cases.csv` | `notebooks/21_AI_LLM_Lab_Summary_Review_Python.ipynb` | Review-status bar chart | 60-75 min | AI literacy, claim boundaries, and scientific communication |
+| Career and Academic Advancement Tracks | Practice role-based lab, industry, and academic application scenarios. | `data/career_scenarios/` | `notebooks/22_Career_Academic_Advancement_Tracks_Python.ipynb` | QC summaries, replicate plots, sequence and caption review tables | 90-120 min | Portfolio and interview-ready scientific judgment |
 | Literature Abstract Journal Club | Turn a fictional abstract into a structured academic summary. | `data/literature_abstracts/abstract_egfr_fictional.txt` | Challenge prompt | Discussion notes | 45-60 min | Reading, summarizing, and limitation spotting |
+
+## Academic Application Extension
+
+For master's applications, medical-school preparation, special research programs, internships, or research assistant applications, choose one project and turn it into an application-ready artifact using:
+
+```text
+ADVANCEMENT_AND_PORTFOLIO_GUIDE.md
+writing_templates/academic_project_summary_template.md
+writing_templates/application_reflection_template.md
+writing_templates/academic_interview_prep_template.md
+```
+
+Suggested deliverable:
+
+```text
+one figure + one cautious result paragraph + one limitation + one next-step idea + one short reflection
+```
+
+Strong project choices for this purpose:
+
+- `10_Capstone_BioDose_Advanced_Challenge.ipynb`
+- `14_Experimental_Design_and_Replicates_Python.ipynb`
+- `15_Enzyme_Kinetics_Michaelis_Menten_Python.ipynb`
+- `16_Standard_Curve_Bradford_Assay_Python.ipynb`
+- `18_qPCR_Delta_Delta_Ct_Python.ipynb`
+- `21_AI_LLM_Lab_Summary_Review_Python.ipynb`
+- `22_Career_Academic_Advancement_Tracks_Python.ipynb`
 
 ## Optional Extensions
 

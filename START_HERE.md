@@ -130,6 +130,18 @@ Drug Response Screening Challenge
 
 ---
 
+# Step 6: Connect To Lab And Career Skills
+
+After one or two notebooks, open:
+
+```text
+ADVANCEMENT_AND_PORTFOLIO_GUIDE.md
+```
+
+This guide shows how the notebooks connect to academic lab skills, biotech/QC workflows, AI/LLM career trends, academic advancement planning, and portfolio artifacts. For hands-on role-based practice, use `notebooks/22_Career_Academic_Advancement_Tracks_Python.ipynb`.
+
+---
+
 # Minimum Setup vs Full Setup
 
 ## Minimum setup

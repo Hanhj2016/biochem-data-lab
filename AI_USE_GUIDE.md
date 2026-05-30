@@ -113,3 +113,7 @@ Please write:
 3. Limitations
 4. Study questions
 ```
+
+## Career Trend Connection
+
+For a student-facing guide to AI/LLM capabilities, job-skill trends, and portfolio-safe AI use, see `ADVANCEMENT_AND_PORTFOLIO_GUIDE.md`.

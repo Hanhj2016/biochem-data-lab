@@ -37,17 +37,48 @@ Setup_Guide/06_Conda_Navigator_GUI_Guide.md
 
 ## Main Learning Guides
 
+Start with the documentation index if you are unsure which guide to open:
+
+```text
+DOCUMENTATION_INDEX.md
+```
+
+Core student guides:
+
 ```text
 Learning_Path_Chooser.md
 STUDENT_PROJECT_MENU.md
-WORKSHOP_PLAN.md
+BILINGUAL_CONCEPT_GUIDE.md
+ADVANCEMENT_AND_PORTFOLIO_GUIDE.md
 COMMON_MISTAKES.md
 DATA_DISCLAIMER.md
 AI_USE_GUIDE.md
 GLOSSARY.md
+```
+
+Instructor, setup, and sharing guides:
+
+```text
+WORKSHOP_PLAN.md
 ROADMAP.md
 GITHUB_REPOSITORY_GUIDE.md
+RELEASE_CHECKLIST.md
+Setup_Guide/
 ```
+
+
+## Notebook Numbering At A Glance
+
+| Range | Role |
+|---|---|
+| `00` | Setup checks |
+| `01-06` | Foundation Python/R comparison path |
+| `07-09` | Advanced paired analysis topics |
+| `10` | Capstone challenge |
+| `11` | Graphical showcase, intentionally overlapping as a visual tour |
+| `13` | AI-safe reporting bridge |
+| `14-20` | Python-first applied lab-data topics |
+| `21-22` | AI literacy plus career/academic advancement tracks |
 
 ## Core Notebook Path
 
@@ -61,11 +92,11 @@ notebooks/05_Gene_Expression_Python.ipynb
 notebooks/06_Python_vs_R_Reflection.ipynb
 ```
 
-Matching R notebooks are included for the early Python/R comparison path.
+Matching R notebooks are included for the early Python/R comparison path. Advanced/applied extension notebooks are currently Python-first unless an R counterpart is listed.
 
 ## Visual Showcase
 
-To see the strongest graphical outputs first, open:
+This notebook intentionally overlaps with several later topics. It is a visual tour, not a duplicate lesson. To see the strongest graphical outputs first, open:
 
 ```text
 notebooks/11_Graphical_Showcase_Python.ipynb
@@ -77,21 +108,23 @@ It exports interactive Plotly figures to:
 example_outputs/
 ```
 
-## Extended Notebook Topics
+## Advanced and Applied Extension Topics
 
-Optional notebooks cover:
+These notebooks extend the foundations rather than repeat them. They are Python-first applied modules for university lab-data contexts. Optional notebooks cover:
 
 - data QC and outlier visualization
 - IC50-style curve fitting
 - heatmaps and PCA-style sample maps
 - BioDose AI bridge logic
-- experimental design and replicates
-- enzyme kinetics
-- Bradford-style standard curves
-- 96-well plate QC
-- qPCR delta-delta Ct
-- OD600 growth curves
-- sequence GC content and motif basics
+- experimental design and replicates, extending enzyme activity into study-design thinking
+- enzyme kinetics, extending enzyme activity into Michaelis-Menten saturation curves
+- Bradford-style standard curves, adding protein concentration calibration
+- 96-well plate QC, extending QC into spatial plate-layout effects
+- qPCR delta-delta Ct, extending gene expression into method-specific normalization
+- OD600 growth curves, adding microbial time-course analysis
+- sequence GC content and motif basics, adding introductory bioinformatics
+- AI/LLM lab-summary review, adding human-in-the-loop scientific communication practice
+- career and academic advancement tracks, adding role-based synthetic lab scenarios and portfolio outputs
 
 Use `STUDENT_PROJECT_MENU.md` to choose a mini-project.
 
@@ -101,6 +134,7 @@ Scenario datasets are documented here:
 
 ```text
 data/SCENARIO_DATASETS_README.md
+data/career_scenarios/
 ```
 
 Teaching support folders:

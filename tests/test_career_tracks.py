@@ -1,5 +1,13 @@
 import pandas as pd
 
+from src.sample_data import (
+    AI_FIGURE_CAPTION_REVIEW,
+    ASSAY_DEVELOPMENT_DAY_VARIABILITY,
+    BIOINFORMATICS_SEQUENCE_TRIAGE,
+    MOLECULAR_BIOLOGY_QPCR_REVIEW,
+    QC_PLATE_BATCH_REVIEW,
+    RESEARCH_ASSISTANT_REPLICATE_LOG,
+)
 from src.career_tracks import (
     make_role_track_table,
     review_ai_captions,
@@ -19,7 +27,7 @@ def test_role_track_table_lists_six_tracks():
 
 
 def test_career_qc_plate_summary_flags_review_batch():
-    df = pd.read_csv("data/career_scenarios/qc_plate_batch_review.csv")
+    df = pd.read_csv(QC_PLATE_BATCH_REVIEW)
 
     summary = summarize_qc_plate_batches(df)
 
@@ -28,7 +36,7 @@ def test_career_qc_plate_summary_flags_review_batch():
 
 
 def test_replicate_design_flags_missing_and_high_variability():
-    df = pd.read_csv("data/career_scenarios/research_assistant_replicate_log.csv")
+    df = pd.read_csv(RESEARCH_ASSISTANT_REPLICATE_LOG)
 
     summary = summarize_replicate_design(df)
 
@@ -37,7 +45,7 @@ def test_replicate_design_flags_missing_and_high_variability():
 
 
 def test_assay_day_variability_flags_day_shift():
-    df = pd.read_csv("data/career_scenarios/assay_development_day_variability.csv")
+    df = pd.read_csv(ASSAY_DEVELOPMENT_DAY_VARIABILITY)
 
     summary = summarize_assay_day_variability(df)
 
@@ -45,7 +53,7 @@ def test_assay_day_variability_flags_day_shift():
 
 
 def test_qpcr_review_flags_ct_spread():
-    df = pd.read_csv("data/career_scenarios/molecular_biology_qpcr_review.csv")
+    df = pd.read_csv(MOLECULAR_BIOLOGY_QPCR_REVIEW)
 
     summary = summarize_qpcr_replicate_qc(df)
 
@@ -53,7 +61,7 @@ def test_qpcr_review_flags_ct_spread():
 
 
 def test_sequence_triage_flags_ambiguous_base():
-    df = pd.read_csv("data/career_scenarios/bioinformatics_sequence_triage.csv")
+    df = pd.read_csv(BIOINFORMATICS_SEQUENCE_TRIAGE)
 
     summary = summarize_sequence_triage(df)
 
@@ -62,7 +70,7 @@ def test_sequence_triage_flags_ambiguous_base():
 
 
 def test_ai_caption_review_flags_risky_claims():
-    df = pd.read_csv("data/career_scenarios/ai_figure_caption_review.csv")
+    df = pd.read_csv(AI_FIGURE_CAPTION_REVIEW)
 
     reviewed = review_ai_captions(df)
 

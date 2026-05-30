@@ -32,3 +32,13 @@ showcase_08_qpcr_relative_expression.html
 showcase_09_growth_curve.html
 showcase_10_gc_content.html
 ```
+
+
+The career and academic advancement notebook can export:
+
+```text
+career_01_qc_plate_batch_summary.html
+career_02_research_assistant_replicates.html
+career_03_sequence_triage_gc_content.html
+career_04_ai_caption_review_status.html
+```

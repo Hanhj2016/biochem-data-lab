@@ -4,6 +4,26 @@ All datasets in this folder are synthetic and for learning only. They are not re
 
 The goal is to give students small Biochemistry-first examples for practicing data loading, summary statistics, visualization, quality checks, and cautious interpretation.
 
+## Foundation / Legacy Notebook Samples
+
+These small synthetic datasets support the earliest notebooks and a few advanced examples. They are kept at the top level of `data/` for compatibility with the original tutorial path.
+
+| Dataset | What it teaches |
+|---|---|
+| `data/enzyme_activity_sample.csv` | Foundation control-vs-treatment enzyme activity comparison for the first Python/R notebooks. |
+| `data/anova_cell_viability_sample.csv` | Multi-group synthetic cell viability example for ANOVA practice. |
+| `data/cell_viability_sample.csv` | Basic dose-response style cell viability plotting practice. |
+| `data/dose_response_ic50_sample.csv` | Educational IC50-style curve-fitting sample used by the advanced dose-response notebook. |
+| `data/qc_outlier_sample.csv` | Synthetic QC/outlier visualization sample with review-style points. |
+| `data/gene_expression_toy.csv` | Small gene expression table for beginner fold-change practice. |
+| `data/gene_expression_matrix_toy.csv` | Small matrix-style gene expression sample for heatmap/PCA-style practice. |
+
+## AI Literacy
+
+| Dataset | What it teaches |
+|---|---|
+| `data/ai_literacy/ai_lab_summary_review_cases.csv` | AI-style lab summary review cases for unsupported claims, missing limitations, and safer scientific wording. |
+
 ## Enzyme Activity
 
 | Dataset | What it teaches |

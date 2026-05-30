@@ -4,9 +4,7 @@ This content has been consolidated to reduce duplicate guidance.
 
 Use:
 
-```text
-Learning_Path_Chooser.md
-```
+[Learning_Path_Chooser.md](Learning_Path_Chooser.md)
 
 Relevant sections:
 

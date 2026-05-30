@@ -22,30 +22,19 @@ You do not need to finish everything.
 
 ## If you prefer GUI
 
-Start with:
-
-```text
-Setup_Guide/00_Quick_Start.md
-Setup_Guide/06_Conda_Navigator_GUI_Guide.md
-```
+Start with [Quick Start](Setup_Guide/00_Quick_Start.md) and [Conda Navigator GUI Guide](Setup_Guide/06_Conda_Navigator_GUI_Guide.md).
 
 ## If you use Windows 11
 
-```text
-Setup_Guide/01_Windows11_Setup.md
-```
+[Windows 11 Setup Guide](Setup_Guide/01_Windows11_Setup.md)
 
 ## If you use Ubuntu 24.04
 
-```text
-Setup_Guide/02_Ubuntu24_Setup.md
-```
+[Ubuntu 24.04 Setup Guide](Setup_Guide/02_Ubuntu24_Setup.md)
 
 ## If you use macOS
 
-```text
-Setup_Guide/03_macOS_Setup.md
-```
+[macOS Setup Guide](Setup_Guide/03_macOS_Setup.md)
 
 ---
 
@@ -82,11 +71,7 @@ R setup is useful but not required on the first day.
 
 # Step 4: Choose a Learning Path
 
-Open:
-
-```text
-Learning_Path_Chooser.md
-```
+Open [Learning_Path_Chooser.md](Learning_Path_Chooser.md).
 
 Recommended path for most students:
 
@@ -96,21 +81,13 @@ Quick First Success
 → Drug Response or Gene Expression Path
 ```
 
-For more university lab-data topics after the first notebooks, open:
-
-```text
-STUDENT_PROJECT_MENU.md
-```
+For more university lab-data topics after the first notebooks, open [STUDENT_PROJECT_MENU.md](STUDENT_PROJECT_MENU.md).
 
 ---
 
 # Step 5: Try a Challenge
 
-Open:
-
-```text
-STUDENT_PROJECT_MENU.md
-```
+Open [STUDENT_PROJECT_MENU.md](STUDENT_PROJECT_MENU.md).
 
 Good first challenge:
 
@@ -132,13 +109,9 @@ Drug Response Screening Challenge
 
 # Step 6: Connect To Lab And Career Skills
 
-After one or two notebooks, open:
+After one or two notebooks, open [ADVANCEMENT_AND_PORTFOLIO_GUIDE.md](ADVANCEMENT_AND_PORTFOLIO_GUIDE.md).
 
-```text
-ADVANCEMENT_AND_PORTFOLIO_GUIDE.md
-```
-
-This guide shows how the notebooks connect to academic lab skills, biotech/QC workflows, AI/LLM career trends, academic advancement planning, and portfolio artifacts. For hands-on role-based practice, use `notebooks/22_Career_Academic_Advancement_Tracks_Python.ipynb`.
+This guide shows how the notebooks connect to academic lab skills, biotech/QC workflows, AI/LLM career trends, academic advancement planning, and portfolio artifacts. For hands-on role-based practice, use [notebooks/22_Career_Academic_Advancement_Tracks_Python.ipynb](notebooks/22_Career_Academic_Advancement_Tracks_Python.ipynb).
 
 ---
 

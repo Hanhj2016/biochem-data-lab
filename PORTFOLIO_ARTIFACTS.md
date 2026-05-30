@@ -4,9 +4,7 @@ This content has been consolidated to reduce duplicate guidance.
 
 Use:
 
-```text
-ADVANCEMENT_AND_PORTFOLIO_GUIDE.md
-```
+[ADVANCEMENT_AND_PORTFOLIO_GUIDE.md](ADVANCEMENT_AND_PORTFOLIO_GUIDE.md)
 
 Relevant sections:
 

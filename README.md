@@ -17,54 +17,40 @@ All datasets are synthetic and for learning only. Do not treat outputs as clinic
 
 ## Start Here
 
-For the first session, open:
-
-```text
-START_HERE.md
-```
+For the first session, open [START_HERE.md](START_HERE.md).
 
 For setup by platform, use:
 
-```text
-Setup_Guide/00_Quick_Start.md
-Setup_Guide/01_Windows11_Setup.md
-Setup_Guide/02_Ubuntu24_Setup.md
-Setup_Guide/03_macOS_Setup.md
-Setup_Guide/04_R_Kernel_IRkernel_Setup.md
-Setup_Guide/05_Troubleshooting.md
-Setup_Guide/06_Conda_Navigator_GUI_Guide.md
-```
+- [Quick Start](Setup_Guide/00_Quick_Start.md)
+- [Windows 11 Setup](Setup_Guide/01_Windows11_Setup.md)
+- [Ubuntu 24.04 Setup](Setup_Guide/02_Ubuntu24_Setup.md)
+- [macOS Setup](Setup_Guide/03_macOS_Setup.md)
+- [R Kernel / IRkernel Setup](Setup_Guide/04_R_Kernel_IRkernel_Setup.md)
+- [Troubleshooting](Setup_Guide/05_Troubleshooting.md)
+- [Conda Navigator GUI Guide](Setup_Guide/06_Conda_Navigator_GUI_Guide.md)
 
 ## Main Learning Guides
 
-Start with the documentation index if you are unsure which guide to open:
-
-```text
-DOCUMENTATION_INDEX.md
-```
+Start with [DOCUMENTATION_INDEX.md](DOCUMENTATION_INDEX.md) if you are unsure which guide to open.
 
 Core student guides:
 
-```text
-Learning_Path_Chooser.md
-STUDENT_PROJECT_MENU.md
-BILINGUAL_CONCEPT_GUIDE.md
-ADVANCEMENT_AND_PORTFOLIO_GUIDE.md
-COMMON_MISTAKES.md
-DATA_DISCLAIMER.md
-AI_USE_GUIDE.md
-GLOSSARY.md
-```
+- [Learning Path Chooser](Learning_Path_Chooser.md)
+- [Student Project Menu](STUDENT_PROJECT_MENU.md)
+- [Bilingual Concept Guide](BILINGUAL_CONCEPT_GUIDE.md)
+- [Advancement and Portfolio Guide](ADVANCEMENT_AND_PORTFOLIO_GUIDE.md)
+- [Common Mistakes](COMMON_MISTAKES.md)
+- [Data Disclaimer](DATA_DISCLAIMER.md)
+- [AI Use Guide](AI_USE_GUIDE.md)
+- [Glossary](GLOSSARY.md)
 
 Instructor, setup, and sharing guides:
 
-```text
-WORKSHOP_PLAN.md
-ROADMAP.md
-GITHUB_REPOSITORY_GUIDE.md
-RELEASE_CHECKLIST.md
-Setup_Guide/
-```
+- [Workshop Plan](WORKSHOP_PLAN.md)
+- [Roadmap](ROADMAP.md)
+- [GitHub Repository Guide](GITHUB_REPOSITORY_GUIDE.md)
+- [Release Checklist](RELEASE_CHECKLIST.md)
+- [Setup Guides](Setup_Guide/00_Quick_Start.md)
 
 
 ## Notebook Numbering At A Glance
@@ -126,16 +112,11 @@ These notebooks extend the foundations rather than repeat them. They are Python-
 - AI/LLM lab-summary review, adding human-in-the-loop scientific communication practice
 - career and academic advancement tracks, adding role-based synthetic lab scenarios and portfolio outputs
 
-Use `STUDENT_PROJECT_MENU.md` to choose a mini-project.
+Use [STUDENT_PROJECT_MENU.md](STUDENT_PROJECT_MENU.md) to choose a mini-project.
 
 ## Data and Teaching Support
 
-Scenario datasets are documented here:
-
-```text
-data/SCENARIO_DATASETS_README.md
-data/career_scenarios/
-```
+Scenario datasets are documented in [data/SCENARIO_DATASETS_README.md](data/SCENARIO_DATASETS_README.md).
 
 Teaching support folders:
 
@@ -161,7 +142,7 @@ pip install pandas numpy scipy statsmodels plotly jupyter jupyterlab
 jupyter notebook
 ```
 
-For R notebooks, install R, IRkernel, and tidyverse. See `Setup_Guide/04_R_Kernel_IRkernel_Setup.md`.
+For R notebooks, install R, IRkernel, and tidyverse. See [Setup_Guide/04_R_Kernel_IRkernel_Setup.md](Setup_Guide/04_R_Kernel_IRkernel_Setup.md).
 
 ## Tests
 

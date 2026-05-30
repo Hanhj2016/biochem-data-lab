@@ -57,7 +57,7 @@ Good starting notebooks:
 | Bioinformatics assistant | `data/career_scenarios/bioinformatics_sequence_triage.csv` | sequence triage, GC content, motifs, ambiguous bases |
 | AI scientific communication | `data/career_scenarios/ai_figure_caption_review.csv` | AI caption overclaim review and safer rewriting |
 
-Challenge briefs and expected learning points are in `challenge_prompts/` and `expected_outputs/`.
+Challenge briefs and expected learning points are in [challenge_prompts/](challenge_prompts/) and [expected_outputs/](expected_outputs/).
 
 ## Industry And Lab Reality Checks
 
@@ -213,7 +213,7 @@ AI-safe notebook workflow:
 6. Keep the synthetic-data disclaimer.
 ```
 
-For practical AI prompt examples, see `AI_USE_GUIDE.md`.
+For practical AI prompt examples, see [AI_USE_GUIDE.md](AI_USE_GUIDE.md).
 
 ## Cautious Wording
 

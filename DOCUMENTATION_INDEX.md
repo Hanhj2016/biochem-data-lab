@@ -31,16 +31,6 @@ All project data are synthetic and for learning only. Do not treat outputs as cl
 | Hands-on role-based notebook | [notebooks/22_Career_Academic_Advancement_Tracks_Python.ipynb](notebooks/22_Career_Academic_Advancement_Tracks_Python.ipynb) |
 | Academic/career writing templates | [writing_templates/](writing_templates/) |
 
-Compatibility pointers kept for older links:
-
-- [CAREER_SKILL_MAP.md](CAREER_SKILL_MAP.md)
-- [INDUSTRY_LAB_REALITY.md](INDUSTRY_LAB_REALITY.md)
-- [ACADEMIC_ADVANCEMENT_GUIDE.md](ACADEMIC_ADVANCEMENT_GUIDE.md)
-- [PORTFOLIO_ARTIFACTS.md](PORTFOLIO_ARTIFACTS.md)
-- [AI_LLM_CAREER_TRENDS.md](AI_LLM_CAREER_TRENDS.md)
-
-These now point back to [ADVANCEMENT_AND_PORTFOLIO_GUIDE.md](ADVANCEMENT_AND_PORTFOLIO_GUIDE.md) to avoid duplicated guidance.
-
 ## Data, Challenges, And Expected Outputs
 
 | Need | Open |
@@ -73,4 +63,3 @@ These now point back to [ADVANCEMENT_AND_PORTFOLIO_GUIDE.md](ADVANCEMENT_AND_POR
 | Agent/project rules | [AGENTS.md](AGENTS.md) |
 | Notebook pairing and extension status | [Learning_Path_Chooser.md](Learning_Path_Chooser.md) |
 
-[NOTEBOOK_PAIRING_STATUS.md](NOTEBOOK_PAIRING_STATUS.md) remains as a compatibility pointer to [Learning_Path_Chooser.md](Learning_Path_Chooser.md).

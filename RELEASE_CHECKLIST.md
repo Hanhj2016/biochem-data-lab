@@ -14,7 +14,8 @@ Use this before sharing BioChem Data Lab with students, instructors, or program 
 ## Notebook Readiness
 
 - [ ] Core Python notebooks open: `00-05`.
-- [ ] Core R comparison notebooks open where included: `00-05`, `07-09`.
+- [ ] Core R comparison notebooks open where included: `00-05`, `07-09`, `14-20`.
+- [ ] Applied R notebooks open and compare cleanly with the Python versions: `14-20`.
 - [ ] Python advanced notebooks open: `07-11`, `13-22`.
 - [ ] Plotly notebooks include a renderer setup or fallback comment.
 - [ ] Notebooks use relative paths from the `notebooks/` directory.

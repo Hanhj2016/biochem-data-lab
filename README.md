@@ -63,7 +63,7 @@ Instructor, setup, and sharing guides:
 | `10` | Capstone challenge |
 | `11` | Graphical showcase, intentionally overlapping as a visual tour |
 | `13` | AI-safe reporting bridge |
-| `14-20` | Python-first applied lab-data topics |
+| `14-20` | Applied lab-data topics with Python and R notebooks |
 | `21-22` | AI literacy plus career/academic advancement tracks |
 
 ## Core Notebook Path
@@ -78,7 +78,7 @@ notebooks/05_Gene_Expression_Python.ipynb
 notebooks/06_Python_vs_R_Reflection.ipynb
 ```
 
-Matching R notebooks are included for the early Python/R comparison path. Advanced/applied extension notebooks are currently Python-first unless an R counterpart is listed.
+Matching R notebooks are included for the early Python/R comparison path and for applied lab notebooks `14-20`. AI/reporting and career-track notebooks remain Python-first unless an R counterpart is listed.
 
 ## Visual Showcase
 
@@ -96,7 +96,7 @@ example_outputs/
 
 ## Advanced and Applied Extension Topics
 
-These notebooks extend the foundations rather than repeat them. They are Python-first applied modules for university lab-data contexts. Optional notebooks cover:
+These notebooks extend the foundations rather than repeat them. Applied lab notebooks `14-20` now include both Python and R versions for university lab-data contexts. Optional notebooks cover:
 
 - data QC and outlier visualization
 - IC50-style curve fitting
@@ -142,7 +142,7 @@ pip install pandas numpy scipy statsmodels plotly jupyter jupyterlab
 jupyter notebook
 ```
 
-For R notebooks, install R, IRkernel, and tidyverse. See [Setup_Guide/04_R_Kernel_IRkernel_Setup.md](Setup_Guide/04_R_Kernel_IRkernel_Setup.md).
+For R notebooks, install R, IRkernel, and tidyverse. See [Setup_Guide/04_R_Kernel_IRkernel_Setup.md](Setup_Guide/04_R_Kernel_IRkernel_Setup.md). R helper modules include applied lab functions in `R/` for enzyme kinetics, standard curves, plate QC, qPCR, growth curves, and sequence basics.
 
 ## Tests
 

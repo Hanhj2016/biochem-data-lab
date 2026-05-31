@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Students do not need to finish every notebook. Pick one path and continue based on interest. Notebooks 14-22 are Python-first applied or advancement extensions; they revisit earlier ideas only where needed to teach a new lab-data context.
+Students do not need to finish every notebook. Pick one path and continue based on interest. Notebooks 14-20 now have Python and R versions for applied lab topics. Notebooks 21-22 remain Python-first advancement extensions.
 
 
 ## Notebook Map By Purpose
@@ -19,7 +19,7 @@ Use this map when the numbering feels confusing. The notebooks are grouped by pu
 | Capstone | `10` | Combine dose-response ranking, QC, and cautious interpretation. |
 | Visual showcase | `11` | Preview many graphical outputs; intentionally overlaps with later topics. |
 | Reporting bridge | `13` | Generate structured, cautious summaries for AI-safe reporting practice. |
-| Python-first applied lab topics | `14-20` | Experimental design, enzyme kinetics, standard curves, plate QC, qPCR, growth curves, and sequence basics. |
+| Applied lab topics | `14-20` | Experimental design, enzyme kinetics, standard curves, plate QC, qPCR, growth curves, and sequence basics; Python and R versions are available. |
 | AI and advancement tracks | `21-22` | AI/LLM summary review plus role-based career and academic portfolio scenarios. |
 
 ## Path A: Quick First Success
@@ -84,11 +84,11 @@ Most students:
 Path A → Path B → then choose Path C or D
 ```
 
-## Path E: Python-First Advanced Applied Lab Skills Path
+## Path E: Advanced Applied Lab Skills Path
 
-Best for students who want practical lab-data topics beyond the first statistics notebooks. These are advanced extensions, not duplicate replacements for the foundations.
+Best for students who want practical lab-data topics beyond the first statistics notebooks. These are advanced extensions, not duplicate replacements for the foundations. Notebooks `14-20` have both Python and R versions.
 
-Notebooks:
+Python notebooks:
 
 ```text
 14_Experimental_Design_and_Replicates_Python.ipynb
@@ -102,19 +102,31 @@ Notebooks:
 22_Career_Academic_Advancement_Tracks_Python.ipynb
 ```
 
+R counterparts for applied lab topics:
+
+```text
+14_Experimental_Design_and_Replicates_R.ipynb
+15_Enzyme_Kinetics_Michaelis_Menten_R.ipynb
+16_Standard_Curve_Bradford_Assay_R.ipynb
+17_Assay_QC_Plate_Layout_R.ipynb
+18_qPCR_Delta_Delta_Ct_R.ipynb
+19_Growth_Curve_OD600_R.ipynb
+20_Sequence_Basics_GC_Content_R.ipynb
+```
+
 How these extend earlier topics:
 
-| Notebook | Why it is advanced/applied | Earlier foundation it builds on |
-|---|---|---|
-| `14_Experimental_Design_and_Replicates_Python.ipynb` | Adds controls, replicate balance, SD vs SEM, and design review. | Enzyme activity summaries |
-| `15_Enzyme_Kinetics_Michaelis_Menten_Python.ipynb` | Adds substrate concentration, saturation, Km, and Vmax. | Enzyme activity |
-| `16_Standard_Curve_Bradford_Assay_Python.ipynb` | Adds calibration, unknown estimation, interpolation, and extrapolation checks. | Summary statistics and plotting |
-| `17_Assay_QC_Plate_Layout_Python.ipynb` | Adds spatial QC, edge wells, and plate layout interpretation. | QC/outlier review |
-| `18_qPCR_Delta_Delta_Ct_Python.ipynb` | Adds Ct, housekeeping normalization, delta-delta Ct, and relative expression. | Gene expression fold change |
-| `19_Growth_Curve_OD600_Python.ipynb` | Adds time-course data, OD600, log-phase rate, and doubling time. | Grouped summaries and line plots |
-| `20_Sequence_Basics_GC_Content_Python.ipynb` | Adds DNA string analysis, GC content, motifs, and reverse complements. | Intro gene/bioinformatics concepts |
-| `21_AI_LLM_Lab_Summary_Review_Python.ipynb` | Adds AI/LLM review skills, claim-boundary checks, and safer scientific wording. | All interpretation and limitation sections |
-| `22_Career_Academic_Advancement_Tracks_Python.ipynb` | Adds role-based synthetic scenarios for QC, research assistant, assay development, molecular biology, bioinformatics, and AI communication tracks. | Advanced applied notebooks and portfolio guides |
+| Python notebook | R counterpart | Why it is advanced/applied | Earlier foundation it builds on |
+|---|---|---|---|
+| `14_Experimental_Design_and_Replicates_Python.ipynb` | `14_Experimental_Design_and_Replicates_R.ipynb` | Adds controls, replicate balance, SD vs SEM, and design review. | Enzyme activity summaries |
+| `15_Enzyme_Kinetics_Michaelis_Menten_Python.ipynb` | `15_Enzyme_Kinetics_Michaelis_Menten_R.ipynb` | Adds substrate concentration, saturation, Km, and Vmax. | Enzyme activity |
+| `16_Standard_Curve_Bradford_Assay_Python.ipynb` | `16_Standard_Curve_Bradford_Assay_R.ipynb` | Adds calibration, unknown estimation, interpolation, and extrapolation checks. | Summary statistics and plotting |
+| `17_Assay_QC_Plate_Layout_Python.ipynb` | `17_Assay_QC_Plate_Layout_R.ipynb` | Adds spatial QC, edge wells, and plate layout interpretation. | QC/outlier review |
+| `18_qPCR_Delta_Delta_Ct_Python.ipynb` | `18_qPCR_Delta_Delta_Ct_R.ipynb` | Adds Ct, housekeeping normalization, delta-delta Ct, and relative expression. | Gene expression fold change |
+| `19_Growth_Curve_OD600_Python.ipynb` | `19_Growth_Curve_OD600_R.ipynb` | Adds time-course data, OD600, log-phase rate, and doubling time. | Grouped summaries and line plots |
+| `20_Sequence_Basics_GC_Content_Python.ipynb` | `20_Sequence_Basics_GC_Content_R.ipynb` | Adds DNA string analysis, GC content, motifs, and reverse complements. | Intro gene/bioinformatics concepts |
+| `21_AI_LLM_Lab_Summary_Review_Python.ipynb` | Python-first | Adds AI/LLM review skills, claim-boundary checks, and safer scientific wording. | All interpretation and limitation sections |
+| `22_Career_Academic_Advancement_Tracks_Python.ipynb` | Python-first | Adds role-based synthetic scenarios for QC, research assistant, assay development, molecular biology, bioinformatics, and AI communication tracks. | Advanced applied notebooks and portfolio guides |
 
 Note: `11_Graphical_Showcase_Python.ipynb` is a visual overview that intentionally reuses multiple topics. `13_BioDose_AI_Bridge_Python.ipynb` is an AI-safe reporting bridge for structured summaries, not a new wet-lab assay.
 

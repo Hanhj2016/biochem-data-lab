@@ -6,3 +6,7 @@ __pycache__/
 .env
 outputs/
 *.db
+
+# Generated notebook and chart outputs
+notebooks/iframe_figures/
+example_outputs/*.html

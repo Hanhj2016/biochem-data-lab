@@ -1,0 +1,6 @@
+sequence_id,project_track,sequence,motif_of_interest,expected_review
+SEQ_RA_001,bioinformatics assistant,ATGCGTACGTTAGCGTACGATCG,ATG,start motif present; moderate GC
+SEQ_RA_002,bioinformatics assistant,GGGCGCGGCCGCGGATCCGCGCG,GCGC,GC-rich sequence; motif repeated
+SEQ_RA_003,bioinformatics assistant,ATATATTAATATATTTAAATATTA,GCGC,AT-rich sequence; motif absent
+SEQ_RA_004,bioinformatics assistant,CCATGGTTACCATGGGTTACCA,CCATGG,motif present twice
+SEQ_RA_005,bioinformatics assistant,ATGNNNCGTAACGTNNNGCTA,NNN,ambiguous bases need review

@@ -1,0 +1,16 @@
+project_id,condition,replicate,planned_replicates,enzyme_activity,unit,role_context,notebook_connection,bench_note
+RA_ENZ_001,control,1,4,98.5,relative activity unit,research assistant replicate log,experimental design and enzyme activity,ok
+RA_ENZ_001,control,2,4,100.2,relative activity unit,research assistant replicate log,experimental design and enzyme activity,ok
+RA_ENZ_001,control,3,4,101.8,relative activity unit,research assistant replicate log,experimental design and enzyme activity,ok
+RA_ENZ_001,control,4,4,103.5,relative activity unit,research assistant replicate log,experimental design and enzyme activity,ok
+RA_ENZ_001,buffer_change,1,4,92.5,relative activity unit,research assistant replicate log,experimental design and enzyme activity,ok
+RA_ENZ_001,buffer_change,2,4,94.2,relative activity unit,research assistant replicate log,experimental design and enzyme activity,ok
+RA_ENZ_001,buffer_change,3,4,95.8,relative activity unit,research assistant replicate log,experimental design and enzyme activity,ok
+RA_ENZ_001,buffer_change,4,4,109.5,relative activity unit,research assistant replicate log,experimental design and enzyme activity,high replicate; review pipetting or timing note
+RA_ENZ_001,inhibitor_low,1,4,73.5,relative activity unit,research assistant replicate log,experimental design and enzyme activity,ok
+RA_ENZ_001,inhibitor_low,2,4,75.2,relative activity unit,research assistant replicate log,experimental design and enzyme activity,ok
+RA_ENZ_001,inhibitor_low,4,4,78.5,relative activity unit,research assistant replicate log,experimental design and enzyme activity,ok
+RA_ENZ_001,inhibitor_high,1,4,39.5,relative activity unit,research assistant replicate log,experimental design and enzyme activity,ok
+RA_ENZ_001,inhibitor_high,2,4,41.1,relative activity unit,research assistant replicate log,experimental design and enzyme activity,ok
+RA_ENZ_001,inhibitor_high,3,4,42.9,relative activity unit,research assistant replicate log,experimental design and enzyme activity,ok
+RA_ENZ_001,inhibitor_high,4,4,44.5,relative activity unit,research assistant replicate log,experimental design and enzyme activity,ok

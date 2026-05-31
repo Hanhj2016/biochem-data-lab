@@ -4,6 +4,26 @@ All datasets in this folder are synthetic and for learning only. They are not re
 
 The goal is to give students small Biochemistry-first examples for practicing data loading, summary statistics, visualization, quality checks, and cautious interpretation.
 
+## Foundation / Legacy Notebook Samples
+
+These small synthetic datasets support the earliest notebooks and a few advanced examples. They are kept at the top level of `data/` for compatibility with the original tutorial path.
+
+| Dataset | What it teaches |
+|---|---|
+| `data/enzyme_activity_sample.csv` | Foundation control-vs-treatment enzyme activity comparison for the first Python/R notebooks. |
+| `data/anova_cell_viability_sample.csv` | Multi-group synthetic cell viability example for ANOVA practice. |
+| `data/cell_viability_sample.csv` | Basic dose-response style cell viability plotting practice. |
+| `data/dose_response_ic50_sample.csv` | Educational IC50-style curve-fitting sample used by the advanced dose-response notebook. |
+| `data/qc_outlier_sample.csv` | Synthetic QC/outlier visualization sample with review-style points. |
+| `data/gene_expression_toy.csv` | Small gene expression table for beginner fold-change practice. |
+| `data/gene_expression_matrix_toy.csv` | Small matrix-style gene expression sample for heatmap/PCA-style practice. |
+
+## AI Literacy
+
+| Dataset | What it teaches |
+|---|---|
+| `data/ai_literacy/ai_lab_summary_review_cases.csv` | AI-style lab summary review cases for unsupported claims, missing limitations, and safer scientific wording. |
+
 ## Enzyme Activity
 
 | Dataset | What it teaches |
@@ -88,6 +108,38 @@ data/literature_abstracts/abstract_egfr_fictional.txt
 data/literature_abstracts/abstract_enzyme_inhibitor_fictional.txt
 data/literature_abstracts/abstract_biomarker_fictional.txt
 data/literature_abstracts/abstract_cell_viability_fictional.txt
+```
+
+## Career And Academic Advancement Scenarios
+
+These datasets are synthetic role-style scenarios for practicing career, industry/lab, and academic application skills. They are not real lab records, SOP-controlled QC data, clinical data, or regulatory evidence.
+
+| Dataset | What it teaches |
+|---|---|
+| `data/career_scenarios/qc_plate_batch_review.csv` | QC analyst-style plate batch review with expected ranges, control wells, and review flags. |
+| `data/career_scenarios/research_assistant_replicate_log.csv` | Research assistant-style replicate balance, missing replicate, and high-variability review. |
+| `data/career_scenarios/assay_development_day_variability.csv` | Assay development-style day-to-day robustness comparison for synthetic dose-response data. |
+| `data/career_scenarios/molecular_biology_qpcr_review.csv` | Molecular biology lab-style qPCR Ct replicate review. |
+| `data/career_scenarios/bioinformatics_sequence_triage.csv` | Bioinformatics assistant-style sequence length, GC content, motif, and ambiguous-base triage. |
+| `data/career_scenarios/ai_figure_caption_review.csv` | AI scientific communication-style caption review for overclaims and safer wording. |
+
+Teaching focus: role-based scientific judgment, portfolio artifacts, application/interview explanations, and cautious interpretation.
+
+Career scenario challenge prompts and expected learning points are available in:
+
+```text
+challenge_prompts/QC_Plate_Batch_Review_Challenge.md
+challenge_prompts/Research_Assistant_Replicate_Log_Challenge.md
+challenge_prompts/Assay_Development_Day_Variability_Challenge.md
+challenge_prompts/Molecular_Biology_qPCR_Review_Challenge.md
+challenge_prompts/Bioinformatics_Sequence_Triage_Challenge.md
+challenge_prompts/AI_Figure_Caption_Review_Challenge.md
+expected_outputs/qc_plate_batch_review_expected.md
+expected_outputs/research_assistant_replicate_log_expected.md
+expected_outputs/assay_development_day_variability_expected.md
+expected_outputs/molecular_biology_qpcr_review_expected.md
+expected_outputs/bioinformatics_sequence_triage_expected.md
+expected_outputs/ai_figure_caption_review_expected.md
 ```
 
 ## Interpretation Boundary

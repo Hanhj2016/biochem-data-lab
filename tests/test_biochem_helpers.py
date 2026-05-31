@@ -14,6 +14,7 @@ from src.plate_qc import add_plate_position_flags, make_plate_matrix, summarize_
 from src.qpcr import calculate_delta_delta_ct
 from src.sequence_basics import count_motif, gc_content, reverse_complement, summarize_sequences
 from src.sample_data import (
+    BACTERIAL_GROWTH_CURVE,
     BRADFORD_STANDARD_CURVE,
     DRUG_RESPONSE_OUTLIER,
     ENZYME_CLEAN,
@@ -21,6 +22,9 @@ from src.sample_data import (
     ENZYME_THREE_GROUPS,
     GENE_EXPRESSION_SMALL,
     MICHAELIS_MENTEN_CLEAN,
+    PLATE_LAYOUT_EDGE_EFFECT,
+    QPCR_DELTA_CT_SAMPLE,
+    SYNTHETIC_SEQUENCES,
 )
 from src.standard_curve import (
     estimate_unknown_concentrations,
@@ -127,7 +131,7 @@ def test_standard_curve_helpers_estimate_unknowns():
 
 
 def test_plate_qc_helpers_make_matrix():
-    df = pd.read_csv("data/assay_qc/plate_layout_edge_effect.csv")
+    df = pd.read_csv(PLATE_LAYOUT_EDGE_EFFECT)
 
     flagged = add_plate_position_flags(df)
     matrix = make_plate_matrix(flagged)
@@ -139,7 +143,7 @@ def test_plate_qc_helpers_make_matrix():
 
 
 def test_qpcr_delta_delta_ct_results():
-    df = pd.read_csv("data/qpcr/qpcr_delta_ct_sample.csv")
+    df = pd.read_csv(QPCR_DELTA_CT_SAMPLE)
 
     result = calculate_delta_delta_ct(df)
     treatment = result[result["condition"] == "treatment"]
@@ -149,7 +153,7 @@ def test_qpcr_delta_delta_ct_results():
 
 
 def test_growth_curve_rate_estimate():
-    df = pd.read_csv("data/growth_curve/bacterial_growth_curve.csv")
+    df = pd.read_csv(BACTERIAL_GROWTH_CURVE)
 
     summary = summarize_growth(df)
     rates = estimate_log_phase_rate(summary)
@@ -159,7 +163,7 @@ def test_growth_curve_rate_estimate():
 
 
 def test_sequence_basic_helpers():
-    df = pd.read_csv("data/sequences/synthetic_sequences.csv")
+    df = pd.read_csv(SYNTHETIC_SEQUENCES)
 
     summary = summarize_sequences(df)
 

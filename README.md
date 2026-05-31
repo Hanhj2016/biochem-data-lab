@@ -17,37 +17,54 @@ All datasets are synthetic and for learning only. Do not treat outputs as clinic
 
 ## Start Here
 
-For the first session, open:
-
-```text
-START_HERE.md
-```
+For the first session, open [START_HERE.md](START_HERE.md).
 
 For setup by platform, use:
 
-```text
-Setup_Guide/00_Quick_Start.md
-Setup_Guide/01_Windows11_Setup.md
-Setup_Guide/02_Ubuntu24_Setup.md
-Setup_Guide/03_macOS_Setup.md
-Setup_Guide/04_R_Kernel_IRkernel_Setup.md
-Setup_Guide/05_Troubleshooting.md
-Setup_Guide/06_Conda_Navigator_GUI_Guide.md
-```
+- [Quick Start](Setup_Guide/00_Quick_Start.md)
+- [Windows 11 Setup](Setup_Guide/01_Windows11_Setup.md)
+- [Ubuntu 24.04 Setup](Setup_Guide/02_Ubuntu24_Setup.md)
+- [macOS Setup](Setup_Guide/03_macOS_Setup.md)
+- [R Kernel / IRkernel Setup](Setup_Guide/04_R_Kernel_IRkernel_Setup.md)
+- [Troubleshooting](Setup_Guide/05_Troubleshooting.md)
+- [Conda Navigator GUI Guide](Setup_Guide/06_Conda_Navigator_GUI_Guide.md)
 
 ## Main Learning Guides
 
-```text
-Learning_Path_Chooser.md
-STUDENT_PROJECT_MENU.md
-WORKSHOP_PLAN.md
-COMMON_MISTAKES.md
-DATA_DISCLAIMER.md
-AI_USE_GUIDE.md
-GLOSSARY.md
-ROADMAP.md
-GITHUB_REPOSITORY_GUIDE.md
-```
+Start with [DOCUMENTATION_INDEX.md](DOCUMENTATION_INDEX.md) if you are unsure which guide to open.
+
+Core student guides:
+
+- [Learning Path Chooser](Learning_Path_Chooser.md)
+- [Student Project Menu](STUDENT_PROJECT_MENU.md)
+- [Bilingual Concept Guide](BILINGUAL_CONCEPT_GUIDE.md)
+- [Advancement and Portfolio Guide](ADVANCEMENT_AND_PORTFOLIO_GUIDE.md)
+- [Common Mistakes](COMMON_MISTAKES.md)
+- [Data Disclaimer](DATA_DISCLAIMER.md)
+- [AI Use Guide](AI_USE_GUIDE.md)
+- [Glossary](GLOSSARY.md)
+
+Instructor, setup, and sharing guides:
+
+- [Workshop Plan](WORKSHOP_PLAN.md)
+- [Roadmap](ROADMAP.md)
+- [GitHub Repository Guide](GITHUB_REPOSITORY_GUIDE.md)
+- [Release Checklist](RELEASE_CHECKLIST.md)
+- [Setup Guides](Setup_Guide/00_Quick_Start.md)
+
+
+## Notebook Numbering At A Glance
+
+| Range | Role |
+|---|---|
+| `00` | Setup checks |
+| `01-06` | Foundation Python/R comparison path |
+| `07-09` | Advanced paired analysis topics |
+| `10` | Capstone challenge |
+| `11` | Graphical showcase, intentionally overlapping as a visual tour |
+| `13` | AI-safe reporting bridge |
+| `14-20` | Python-first applied lab-data topics |
+| `21-22` | AI literacy plus career/academic advancement tracks |
 
 ## Core Notebook Path
 
@@ -61,11 +78,11 @@ notebooks/05_Gene_Expression_Python.ipynb
 notebooks/06_Python_vs_R_Reflection.ipynb
 ```
 
-Matching R notebooks are included for the early Python/R comparison path.
+Matching R notebooks are included for the early Python/R comparison path. Advanced/applied extension notebooks are currently Python-first unless an R counterpart is listed.
 
 ## Visual Showcase
 
-To see the strongest graphical outputs first, open:
+This notebook intentionally overlaps with several later topics. It is a visual tour, not a duplicate lesson. To see the strongest graphical outputs first, open:
 
 ```text
 notebooks/11_Graphical_Showcase_Python.ipynb
@@ -77,31 +94,29 @@ It exports interactive Plotly figures to:
 example_outputs/
 ```
 
-## Extended Notebook Topics
+## Advanced and Applied Extension Topics
 
-Optional notebooks cover:
+These notebooks extend the foundations rather than repeat them. They are Python-first applied modules for university lab-data contexts. Optional notebooks cover:
 
 - data QC and outlier visualization
 - IC50-style curve fitting
 - heatmaps and PCA-style sample maps
 - BioDose AI bridge logic
-- experimental design and replicates
-- enzyme kinetics
-- Bradford-style standard curves
-- 96-well plate QC
-- qPCR delta-delta Ct
-- OD600 growth curves
-- sequence GC content and motif basics
+- experimental design and replicates, extending enzyme activity into study-design thinking
+- enzyme kinetics, extending enzyme activity into Michaelis-Menten saturation curves
+- Bradford-style standard curves, adding protein concentration calibration
+- 96-well plate QC, extending QC into spatial plate-layout effects
+- qPCR delta-delta Ct, extending gene expression into method-specific normalization
+- OD600 growth curves, adding microbial time-course analysis
+- sequence GC content and motif basics, adding introductory bioinformatics
+- AI/LLM lab-summary review, adding human-in-the-loop scientific communication practice
+- career and academic advancement tracks, adding role-based synthetic lab scenarios and portfolio outputs
 
-Use `STUDENT_PROJECT_MENU.md` to choose a mini-project.
+Use [STUDENT_PROJECT_MENU.md](STUDENT_PROJECT_MENU.md) to choose a mini-project.
 
 ## Data and Teaching Support
 
-Scenario datasets are documented here:
-
-```text
-data/SCENARIO_DATASETS_README.md
-```
+Scenario datasets are documented in [data/SCENARIO_DATASETS_README.md](data/SCENARIO_DATASETS_README.md).
 
 Teaching support folders:
 
@@ -127,7 +142,7 @@ pip install pandas numpy scipy statsmodels plotly jupyter jupyterlab
 jupyter notebook
 ```
 
-For R notebooks, install R, IRkernel, and tidyverse. See `Setup_Guide/04_R_Kernel_IRkernel_Setup.md`.
+For R notebooks, install R, IRkernel, and tidyverse. See [Setup_Guide/04_R_Kernel_IRkernel_Setup.md](Setup_Guide/04_R_Kernel_IRkernel_Setup.md).
 
 ## Tests
 

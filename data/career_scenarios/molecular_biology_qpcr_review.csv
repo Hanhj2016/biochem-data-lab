@@ -1,0 +1,25 @@
+sample_id,condition,gene,gene_type,replicate,ct,role_context,review_note
+control_GAPDH_r1,control,GAPDH,housekeeping,1,18.1,molecular biology lab qPCR replicate review,ok
+control_GAPDH_r2,control,GAPDH,housekeeping,2,18.0,molecular biology lab qPCR replicate review,ok
+control_GAPDH_r3,control,GAPDH,housekeeping,3,18.2,molecular biology lab qPCR replicate review,ok
+treatment_GAPDH_r1,treatment,GAPDH,housekeeping,1,18.2,molecular biology lab qPCR replicate review,ok
+treatment_GAPDH_r2,treatment,GAPDH,housekeeping,2,18.1,molecular biology lab qPCR replicate review,ok
+treatment_GAPDH_r3,treatment,GAPDH,housekeeping,3,18.3,molecular biology lab qPCR replicate review,ok
+control_EGFR_r1,control,EGFR,target,1,25.2,molecular biology lab qPCR replicate review,ok
+control_EGFR_r2,control,EGFR,target,2,25.4,molecular biology lab qPCR replicate review,ok
+control_EGFR_r3,control,EGFR,target,3,25.3,molecular biology lab qPCR replicate review,ok
+treatment_EGFR_r1,treatment,EGFR,target,1,22.7,molecular biology lab qPCR replicate review,ok
+treatment_EGFR_r2,treatment,EGFR,target,2,22.9,molecular biology lab qPCR replicate review,ok
+treatment_EGFR_r3,treatment,EGFR,target,3,22.8,molecular biology lab qPCR replicate review,ok
+control_MYC_r1,control,MYC,target,1,24.1,molecular biology lab qPCR replicate review,ok
+control_MYC_r2,control,MYC,target,2,24.3,molecular biology lab qPCR replicate review,ok
+control_MYC_r3,control,MYC,target,3,24.2,molecular biology lab qPCR replicate review,ok
+treatment_MYC_r1,treatment,MYC,target,1,23.0,molecular biology lab qPCR replicate review,ok
+treatment_MYC_r2,treatment,MYC,target,2,23.2,molecular biology lab qPCR replicate review,ok
+treatment_MYC_r3,treatment,MYC,target,3,24.8,molecular biology lab qPCR replicate review,check replicate spread
+control_TP53_r1,control,TP53,target,1,23.4,molecular biology lab qPCR replicate review,ok
+control_TP53_r2,control,TP53,target,2,23.5,molecular biology lab qPCR replicate review,ok
+control_TP53_r3,control,TP53,target,3,23.3,molecular biology lab qPCR replicate review,ok
+treatment_TP53_r1,treatment,TP53,target,1,24.2,molecular biology lab qPCR replicate review,ok
+treatment_TP53_r2,treatment,TP53,target,2,24.1,molecular biology lab qPCR replicate review,ok
+treatment_TP53_r3,treatment,TP53,target,3,24.3,molecular biology lab qPCR replicate review,ok

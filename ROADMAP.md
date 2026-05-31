@@ -27,13 +27,14 @@ qPCR scenarios
 growth curve scenarios
 synthetic sequence scenarios
 fictional literature abstracts
+career and academic advancement scenarios
 expected outputs
 challenge prompts
 ```
 
 ## Phase 3: BioDose AI
 
-Future project:
+Added foundation / possible future project:
 
 ```text
 Gradio app
@@ -43,6 +44,8 @@ data quality score
 AI explanation
 figure caption generator
 mini report
+AI/LLM lab-summary review
+AI figure-caption review
 ```
 
 ## Phase 4: Quarto Reports

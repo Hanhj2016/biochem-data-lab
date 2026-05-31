@@ -22,9 +22,11 @@ Biochemistry question
 2. Open Conda Navigator.
 3. Create an environment named `biochem-stats`.
 4. Install the required Python packages.
-5. Launch Jupyter Notebook.
-6. Open `notebooks/00_Setup_Check_Python.ipynb`.
-7. Then open `notebooks/00_Setup_Check_R.ipynb`.
+5. Open a terminal for the `biochem-stats` environment.
+6. Change directory to the BioChem Data Lab project folder.
+7. Run `jupyter notebook`.
+8. Open `notebooks/00_Setup_Check_Python.ipynb`.
+9. Then open `notebooks/00_Setup_Check_R.ipynb`.
 
 ## Recommended First Notebook Pair
 

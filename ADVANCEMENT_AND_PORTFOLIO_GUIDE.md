@@ -57,7 +57,7 @@ Good starting notebooks:
 | Bioinformatics assistant | `data/career_scenarios/bioinformatics_sequence_triage.csv` | sequence triage, GC content, motifs, ambiguous bases |
 | AI scientific communication | `data/career_scenarios/ai_figure_caption_review.csv` | AI caption overclaim review and safer rewriting |
 
-Challenge briefs and expected learning points are in [challenge_prompts/](challenge_prompts/) and [expected_outputs/](expected_outputs/).
+Challenge briefs and expected learning points are in [challenge_prompts/README.md](challenge_prompts/README.md) and [expected_outputs/EXPECTED_OUTPUTS_GUIDE.md](expected_outputs/EXPECTED_OUTPUTS_GUIDE.md).
 
 ## Industry And Lab Reality Checks
 
@@ -111,15 +111,7 @@ Short reflection on what the project taught you
 
 Recommended templates:
 
-```text
-writing_templates/academic_project_summary_template.md
-writing_templates/application_reflection_template.md
-writing_templates/academic_interview_prep_template.md
-writing_templates/figure_caption_template.md
-writing_templates/results_paragraph_template.md
-writing_templates/limitations_template.md
-writing_templates/next_experiment_template.md
-```
+- [writing_templates/STUDENT_WRITING_TEMPLATES.md](writing_templates/STUDENT_WRITING_TEMPLATES.md)
 
 ## Strong Artifact Rubric
 

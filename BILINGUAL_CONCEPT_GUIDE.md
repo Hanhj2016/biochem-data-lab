@@ -79,6 +79,75 @@ English:
 
 ---
 
+---
+
+## Key Terms / 关键词
+
+| Term / 术语 | Student-friendly meaning / 学生友好解释 |
+|---|---|
+| Mean / 均值 | The average value. / 一组数的平均值。 |
+| Median / 中位数 | The middle value after sorting. / 排序后位于中间的数。 |
+| SD, standard deviation / 标准差 | How spread out individual observations are. / 单个观测值分散得有多开。 |
+| SEM, standard error of the mean / 均值标准误 | Uncertainty around the estimated mean. / 对均值估计的不确定性。 |
+| Replicate / 重复测量 | A repeated measurement under the same condition. / 同一条件下的重复测量。 |
+| Technical replicate / 技术重复 | Repeated measurement from the same sample or setup. / 对同一样本或同一设置进行重复测量。 |
+| Biological replicate / 生物重复 | Independent biological sample or independent experiment. / 独立的生物样本或独立实验。 |
+| Control group / 对照组 | The baseline group used for comparison. / 用来比较的基准组。 |
+| Treatment group / 处理组 | The group with a changed condition. / 接受某种条件改变的组。 |
+| p-value / p 值 | A value related to how surprising the result is under a no-difference assumption. / 在“没有差异”的假设下，观察结果有多意外的相关数值。 |
+| t-test / t 检验 | A statistical test for comparing two group means. / 比较两组均值的统计检验。 |
+| ANOVA / 方差分析 | A statistical method for comparing more than two group means. / 比较三组或更多组均值的方法。 |
+| Dose-response / 剂量-响应 | Relationship between amount of condition and measured response. / 条件强度与测量结果之间的关系。 |
+| IC50 / 半数响应浓度 | Concentration where a response is reduced by about 50% in a teaching dose-response context. / 在教学剂量-响应情境中，使响应约降低 50% 的浓度。 |
+| Outlier / 离群值 | A value that looks unusually different and should be reviewed carefully. / 看起来异常不同、需要仔细复核的数值。 |
+| Fold change / 倍数变化 | A ratio comparing one condition with another. / 一个条件相对于另一个条件的比例。 |
+| log2 fold change / log2 倍数变化 | A transformed fold change; positive often means higher, negative often means lower. / 倍数变化的转换形式；正值通常表示更高，负值通常表示更低。 |
+| Housekeeping gene / 管家基因 | A gene expected to be relatively stable across conditions. / 预期在不同条件下相对稳定的基因。 |
+| Bioinformatics / 生物信息学 | Using computational tools to analyze biological data. / 使用计算工具分析生物数据。 |
+| Synthetic data / 合成数据 | Data created for learning or testing, not from a real experiment. / 为学习或测试创建的数据，不是真实实验数据。 |
+
+---
+
+## Common Mistakes / 常见错误
+
+| Mistake / 错误 | Quick fix / 快速处理 |
+|---|---|
+| Jupyter opens in the wrong folder. / Jupyter 打开了错误文件夹。 | Open Jupyter from the BioChem Data Lab folder; you should see `README.md`, `data/`, and `notebooks/`. / 从项目根目录打开 Jupyter，应能看到这些文件夹。 |
+| Wrong notebook kernel. / Notebook 内核选错。 | Use `Kernel -> Change Kernel`, then choose `Python 3` or `R`. / 使用内核菜单切换到 Python 或 R。 |
+| Python package not installed. / Python 包未安装。 | In the project environment, run `pip install package_name`. / 在项目环境中安装所需包。 |
+| R kernel does not show up. / R 内核没有出现。 | In R, run `install.packages("IRkernel")` and `IRkernel::installspec(user = TRUE)`, then restart Jupyter. / 安装 IRkernel 后重启 Jupyter。 |
+| CSV path error. / CSV 路径错误。 | From notebooks, use relative paths like `../data/...`. / 从 notebooks 文件夹读取数据时使用相对路径。 |
+| Variable is not defined. / 变量未定义。 | Restart the kernel and run cells from the top. / 重启内核并从头运行。 |
+| Confusing SD and SEM. / 混淆 SD 与 SEM。 | SD describes spread among observations; SEM describes uncertainty around the mean. / SD 表示观测值分散程度；SEM 表示均值估计的不确定性。 |
+| Overinterpreting p-values. / 过度解释 p 值。 | Also consider effect size, sample size, design, biological relevance, and data quality. / 同时考虑效应大小、样本量、设计、生物意义和数据质量。 |
+| Log scale with zero concentration. / 对零浓度使用对数坐标。 | A log scale cannot display zero; notebooks may use a clearly labeled small placeholder. / 对数坐标不能显示 0，图中可能用清楚标注的小占位值。 |
+| Removing outliers too quickly. / 太快删除离群值。 | Review raw data, replicate patterns, and possible handling or instrument notes first. / 先检查原始数据、重复模式、样本处理和仪器记录。 |
+| Treating synthetic data as real evidence. / 把合成数据当真实证据。 | Use it only for learning, not for scientific, clinical, or regulatory conclusions. / 仅用于学习，不用于真实科学、临床或监管结论。 |
+
+---
+
+## Synthetic Data Boundaries / 合成数据边界
+
+English:
+- All datasets in BioChem Data Lab are synthetic and educational.
+- They are not real experimental, clinical, patient, drug-efficacy, diagnostic, regulatory, or proprietary data.
+- They are designed for practice with loading data, summary statistics, visualization, basic statistical testing, cautious interpretation, and Python/R comparison.
+- Do not use these datasets for medical advice, drug development decisions, publication claims, regulatory submissions, or real biological conclusions.
+- If AI tools are used to explain results, treat the output as a draft and verify the data, method, figure, interpretation, and limitations.
+
+中文：
+- BioChem Data Lab 中所有数据都是合成教学数据。
+- 它们不是真实实验、临床、病人、药效、诊断、监管或专有数据。
+- 它们用于练习数据读取、统计摘要、可视化、基础统计检验、谨慎解释，以及 Python/R 对比。
+- 不要把这些数据用于医疗建议、药物开发决策、论文结论、监管提交或真实生物学结论。
+- 如果使用 AI 工具解释结果，应把 AI 输出当作草稿，并核对原始数据、方法、图形、解释和局限性。
+
+Suggested wording for reports / 报告中可使用的表述：
+
+```text
+This analysis uses synthetic data for learning purposes. The results are intended to practice data analysis and scientific interpretation, not to support real biological or clinical conclusions.
+```
+
 ## 1. Enzyme Activity, t-test, ANOVA, and Replicates  
 ## 1. 酶活性、t 检验、ANOVA 与重复测量
 

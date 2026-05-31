@@ -128,18 +128,8 @@ Teaching focus: role-based scientific judgment, portfolio artifacts, application
 Career scenario challenge prompts and expected learning points are available in:
 
 ```text
-challenge_prompts/QC_Plate_Batch_Review_Challenge.md
-challenge_prompts/Research_Assistant_Replicate_Log_Challenge.md
-challenge_prompts/Assay_Development_Day_Variability_Challenge.md
-challenge_prompts/Molecular_Biology_qPCR_Review_Challenge.md
-challenge_prompts/Bioinformatics_Sequence_Triage_Challenge.md
-challenge_prompts/AI_Figure_Caption_Review_Challenge.md
-expected_outputs/qc_plate_batch_review_expected.md
-expected_outputs/research_assistant_replicate_log_expected.md
-expected_outputs/assay_development_day_variability_expected.md
-expected_outputs/molecular_biology_qpcr_review_expected.md
-expected_outputs/bioinformatics_sequence_triage_expected.md
-expected_outputs/ai_figure_caption_review_expected.md
+challenge_prompts/README.md
+expected_outputs/EXPECTED_OUTPUTS_GUIDE.md
 ```
 
 ## Interpretation Boundary

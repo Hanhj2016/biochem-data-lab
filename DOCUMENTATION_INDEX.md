@@ -10,17 +10,13 @@ All project data are synthetic and for learning only. Do not treat outputs as cl
 |---|---|
 | First session and learning order | [START_HERE.md](START_HERE.md) |
 | Project overview and setup commands | [README.md](README.md) |
-| Choose a path through the notebooks | [Learning_Path_Chooser.md](Learning_Path_Chooser.md) |
-| Choose a mini-project or challenge | [STUDENT_PROJECT_MENU.md](STUDENT_PROJECT_MENU.md) |
+| Choose a learning path, mini-project, or challenge | [Learning_Path_Chooser.md](Learning_Path_Chooser.md) |
 
 ## Concepts And Learning Support
 
 | Need | Open |
 |---|---|
-| English/Chinese concept explanations | [BILINGUAL_CONCEPT_GUIDE.md](BILINGUAL_CONCEPT_GUIDE.md) |
-| Key terms | [GLOSSARY.md](GLOSSARY.md) |
-| Common setup and notebook mistakes | [COMMON_MISTAKES.md](COMMON_MISTAKES.md) |
-| Synthetic data boundaries | [DATA_DISCLAIMER.md](DATA_DISCLAIMER.md) |
+| English/Chinese concept explanations, key terms, common mistakes, and synthetic data boundaries | [BILINGUAL_CONCEPT_GUIDE.md](BILINGUAL_CONCEPT_GUIDE.md) |
 | Responsible AI use while learning | [AI_USE_GUIDE.md](AI_USE_GUIDE.md) |
 
 ## Advancement, Career, Lab, And Portfolio
@@ -29,15 +25,15 @@ All project data are synthetic and for learning only. Do not treat outputs as cl
 |---|---|
 | Career, industry/lab, academic, AI trend, and portfolio guidance in one place | [ADVANCEMENT_AND_PORTFOLIO_GUIDE.md](ADVANCEMENT_AND_PORTFOLIO_GUIDE.md) |
 | Hands-on role-based notebook | [notebooks/22_Career_Academic_Advancement_Tracks_Python.ipynb](notebooks/22_Career_Academic_Advancement_Tracks_Python.ipynb) |
-| Academic/career writing templates | [writing_templates/](writing_templates/) |
+| Academic/career writing templates | [writing_templates/STUDENT_WRITING_TEMPLATES.md](writing_templates/STUDENT_WRITING_TEMPLATES.md) |
 
 ## Data, Challenges, And Expected Outputs
 
 | Need | Open |
 |---|---|
 | Scenario dataset descriptions | [data/SCENARIO_DATASETS_README.md](data/SCENARIO_DATASETS_README.md) |
-| Challenge briefs | [challenge_prompts/](challenge_prompts/) |
-| Expected learning points | [expected_outputs/](expected_outputs/) |
+| Challenge briefs | [challenge_prompts/README.md](challenge_prompts/README.md) |
+| Expected learning points | [expected_outputs/EXPECTED_OUTPUTS_GUIDE.md](expected_outputs/EXPECTED_OUTPUTS_GUIDE.md) |
 | Example exported figures | [example_outputs/README.md](example_outputs/README.md) |
 
 ## Setup And Operations
@@ -52,9 +48,7 @@ All project data are synthetic and for learning only. Do not treat outputs as cl
 | Troubleshooting | [Setup_Guide/05_Troubleshooting.md](Setup_Guide/05_Troubleshooting.md) |
 | Conda Navigator GUI workflow | [Setup_Guide/06_Conda_Navigator_GUI_Guide.md](Setup_Guide/06_Conda_Navigator_GUI_Guide.md) |
 | GitHub sharing | [GITHUB_REPOSITORY_GUIDE.md](GITHUB_REPOSITORY_GUIDE.md) |
-| Workshop planning | [WORKSHOP_PLAN.md](WORKSHOP_PLAN.md) |
-| Future direction | [ROADMAP.md](ROADMAP.md) |
-| Release readiness checklist | [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) |
+| Workshop planning, future direction, and release readiness | [MAINTAINER_GUIDE.md](MAINTAINER_GUIDE.md) |
 
 ## Maintainer Notes
 

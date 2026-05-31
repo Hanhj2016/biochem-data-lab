@@ -44,13 +44,33 @@ pip install pandas numpy scipy statsmodels plotly jupyter jupyterlab
 
 ## Launch Jupyter Notebook
 
-Home → select `biochem-stats` → Launch Jupyter Notebook.
+Recommended approach: open Jupyter from the project folder so relative paths like `../data/...` work correctly.
 
-Open:
+1. Open Conda Navigator.
+2. Go to Environments.
+3. Select `biochem-stats`.
+4. Click the play/triangle button next to `biochem-stats`, then choose Open Terminal.
+5. Change directory to the BioChem Data Lab project folder.
+
+Example:
+
+```bat
+cd C:\Users\YourName\Documents\biochem-data-lab
+```
+
+Then run:
+
+```bat
+jupyter notebook
+```
+
+When Jupyter opens in the browser, open:
 
 ```text
 notebooks/00_Setup_Check_Python.ipynb
 ```
+
+Alternative: from Navigator Home, select `biochem-stats`, then launch Jupyter Notebook. If Jupyter opens in the wrong folder, close it and use the Open Terminal method above.
 
 ## R Kernel Setup
 

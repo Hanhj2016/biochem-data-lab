@@ -15,22 +15,22 @@ All datasets are synthetic and educational. They are not clinical, diagnostic, r
 
 ## Quick Mental Model / 快速理解框架
 
-| BioChem concept | Plain meaning | IT/software analogy | Daily-life analogy |
-|---|---|---|---|
-| Enzyme | Biological catalyst | Worker/service | Kitchen worker or machine |
-| Substrate | Material an enzyme processes | Input/request/job | Raw ingredient |
-| Enzyme activity | How fast/effectively enzyme works | Throughput | Items processed per minute |
-| Control | Baseline condition | Default config | Original recipe |
-| Treatment | Changed condition | Modified config | Recipe with one changed ingredient |
-| Dose/concentration | Strength of treatment | Load/parameter value | Salt/coffee/cleaner amount |
-| Response | Measured outcome | Health metric | Plant health or color intensity |
-| Replicate | Repeated measurement | Repeated benchmark run | Measuring temperature several times |
-| QC | Quality control | Log/environment check | Checking a scale before trusting weight |
-| Outlier/review flag | Point worth checking | Suspicious benchmark run | One impossible body-weight reading |
-| Standard curve | Calibration relationship | Sensor calibration model | Using known weights to calibrate a scale |
-| Gene expression | Gene signal level | Module activity/log signal | Department activity level |
-| PCA | Compress many features into 2D | Observability summary | Map made from many ratings |
-| Heatmap | Color-coded matrix | Monitoring dashboard | Colored classroom score table |
+| BioChem concept / 生化概念 | Plain meaning / 通俗含义 | Daily-life analogy / 日常类比 |
+|---|---|---|
+| Enzyme / 酶 | Biological catalyst; helps a reaction happen faster. / 生物催化剂，帮助反应更快发生。 | Kitchen worker or machine that speeds up food preparation. / 厨房工人或机器，让处理食材更快。 |
+| Substrate / 底物 | Material an enzyme processes. / 被酶处理的材料。 | Raw ingredient waiting to be prepared. / 等待加工的原料。 |
+| Enzyme activity / 酶活性 | How fast or effectively an enzyme works. / 酶工作的速度或效率。 | Items processed per minute. / 每分钟处理了多少东西。 |
+| Control / 对照 | Baseline condition for comparison. / 用来比较的基准条件。 | Original recipe before changing any ingredient. / 未改变配方前的原始版本。 |
+| Treatment / 处理 | Changed condition being compared with control. / 与对照比较的改变条件。 | Recipe with one changed ingredient. / 改了一个配料的配方。 |
+| Dose/concentration / 剂量或浓度 | Strength or amount of the tested condition. / 测试条件的强度或用量。 | Amount of salt, coffee, or cleaner added. / 加入盐、咖啡或清洁剂的多少。 |
+| Response / 响应 | Measured outcome after a condition is applied. / 条件作用后测量到的结果。 | Plant health or color intensity after a change. / 改变后植物状态或颜色深浅。 |
+| Replicate / 重复测量 | Repeated measurement of the same condition. / 对同一条件进行多次测量。 | Measuring temperature several times. / 多次测量温度。 |
+| QC / 质量控制 | Check whether data are reliable enough to interpret. / 检查数据是否足够可靠、能否解释。 | Checking a scale before trusting a weight. / 相信体重读数前先检查秤是否正常。 |
+| Outlier/review flag / 离群值或复核标记 | A point worth checking before interpretation. / 解释前需要检查的数据点。 | One impossible body-weight reading. / 一个明显不合理的体重读数。 |
+| Standard curve / 标准曲线 | Calibration relationship built from known values. / 用已知数值建立的校准关系。 | Using known weights to calibrate a scale. / 用已知重量校准秤。 |
+| Gene expression / 基因表达 | Gene signal level under a condition. / 某条件下基因信号的高低。 | Department activity level in an organization. / 一个部门的活跃程度。 |
+| PCA / 主成分分析 | Compress many features into a smaller visual summary. / 把许多特征压缩成较少的可视化摘要。 | Map made from many ratings. / 用很多评分压缩成的一张地图。 |
+| Heatmap / 热图 | Color-coded matrix for comparing many values. / 用颜色表示许多数值的矩阵。 | Colored classroom score table. / 用颜色标记的班级成绩表。 |
 
 ---
 
@@ -66,13 +66,13 @@ English:
 | Capstone | `10_Capstone_BioDose_Advanced_Challenge.ipynb` | drug-response scenario datasets | Combine ranking, QC, and cautious interpretation |
 | Graphical showcase | `11_Graphical_Showcase_Python.ipynb` | multiple synthetic datasets | See many graph types in one place |
 | AI bridge | `13_BioDose_AI_Bridge_Python.ipynb` | drug-response scenario datasets | Turn analysis into AI-safe summaries |
-| Experimental design | `14_Experimental_Design_and_Replicates_Python.ipynb` | `data/enzyme_activity/enzyme_activity_three_groups.csv` | Understand controls and replicates |
-| Enzyme kinetics | `15_Enzyme_Kinetics_Michaelis_Menten_Python.ipynb` | `data/enzyme_kinetics/*.csv` | Understand saturation, Km, Vmax |
-| Bradford assay | `16_Standard_Curve_Bradford_Assay_Python.ipynb` | `data/standard_curves/bradford_standard_curve.csv` | Estimate unknown protein concentration |
-| Plate QC | `17_Assay_QC_Plate_Layout_Python.ipynb` | `data/assay_qc/plate_layout_edge_effect.csv` | Detect spatial/edge effects |
-| qPCR | `18_qPCR_Delta_Delta_Ct_Python.ipynb` | `data/qpcr/qpcr_delta_ct_sample.csv` | Calculate relative expression |
-| Growth curve | `19_Growth_Curve_OD600_Python.ipynb` | `data/growth_curve/bacterial_growth_curve.csv` | Interpret OD600 over time |
-| Sequence basics | `20_Sequence_Basics_GC_Content_Python.ipynb` | `data/sequences/synthetic_sequences.csv` | Summarize DNA strings |
+| Experimental design | [Python](notebooks/14_Experimental_Design_and_Replicates_Python.ipynb) / [R](notebooks/14_Experimental_Design_and_Replicates_R.ipynb) | `data/enzyme_activity/enzyme_activity_three_groups.csv` | Understand controls and replicates |
+| Enzyme kinetics | [Python](notebooks/15_Enzyme_Kinetics_Michaelis_Menten_Python.ipynb) / [R](notebooks/15_Enzyme_Kinetics_Michaelis_Menten_R.ipynb) | `data/enzyme_kinetics/*.csv` | Understand saturation, Km, Vmax |
+| Bradford assay | [Python](notebooks/16_Standard_Curve_Bradford_Assay_Python.ipynb) / [R](notebooks/16_Standard_Curve_Bradford_Assay_R.ipynb) | `data/standard_curves/bradford_standard_curve.csv` | Estimate unknown protein concentration |
+| Plate QC | [Python](notebooks/17_Assay_QC_Plate_Layout_Python.ipynb) / [R](notebooks/17_Assay_QC_Plate_Layout_R.ipynb) | `data/assay_qc/plate_layout_edge_effect.csv` | Detect spatial/edge effects |
+| qPCR | [Python](notebooks/18_qPCR_Delta_Delta_Ct_Python.ipynb) / [R](notebooks/18_qPCR_Delta_Delta_Ct_R.ipynb) | `data/qpcr/qpcr_delta_ct_sample.csv` | Calculate relative expression |
+| Growth curve | [Python](notebooks/19_Growth_Curve_OD600_Python.ipynb) / [R](notebooks/19_Growth_Curve_OD600_R.ipynb) | `data/growth_curve/bacterial_growth_curve.csv` | Interpret OD600 over time |
+| Sequence basics | [Python](notebooks/20_Sequence_Basics_GC_Content_Python.ipynb) / [R](notebooks/20_Sequence_Basics_GC_Content_R.ipynb) | `data/sequences/synthetic_sequences.csv` | Summarize DNA strings |
 | Sequence recipe | `code_recipes/python/16_sequence_basics_python.py` | `data/sequences/synthetic_sequences.csv` | Reusable sequence functions |
 | AI summary review | `21_AI_LLM_Lab_Summary_Review_Python.ipynb` | `data/ai_literacy/ai_lab_summary_review_cases.csv` | Review AI-style summaries for overclaims |
 | Career/academic tracks | `22_Career_Academic_Advancement_Tracks_Python.ipynb` | `data/career_scenarios/*.csv` | Practice role-based lab and portfolio scenarios |

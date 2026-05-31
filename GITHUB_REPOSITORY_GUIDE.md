@@ -72,9 +72,8 @@ The repository root should look like:
 ```text
 README.md
 START_HERE.md
-STUDENT_PROJECT_MENU.md
 Learning_Path_Chooser.md
-WORKSHOP_PLAN.md
+MAINTAINER_GUIDE.md
 Setup_Guide/
 data/
 notebooks/

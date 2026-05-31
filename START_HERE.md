@@ -81,13 +81,11 @@ Quick First Success
 → Drug Response or Gene Expression Path
 ```
 
-For more university lab-data topics after the first notebooks, open [STUDENT_PROJECT_MENU.md](STUDENT_PROJECT_MENU.md).
+For more university lab-data topics or challenge projects after the first notebooks, use the project menu section in [Learning_Path_Chooser.md](Learning_Path_Chooser.md).
 
 ---
 
 # Step 5: Try a Challenge
-
-Open [STUDENT_PROJECT_MENU.md](STUDENT_PROJECT_MENU.md).
 
 Good first challenge:
 

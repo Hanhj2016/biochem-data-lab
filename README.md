@@ -36,20 +36,14 @@ Start with [DOCUMENTATION_INDEX.md](DOCUMENTATION_INDEX.md) if you are unsure wh
 Core student guides:
 
 - [Learning Path Chooser](Learning_Path_Chooser.md)
-- [Student Project Menu](STUDENT_PROJECT_MENU.md)
 - [Bilingual Concept Guide](BILINGUAL_CONCEPT_GUIDE.md)
 - [Advancement and Portfolio Guide](ADVANCEMENT_AND_PORTFOLIO_GUIDE.md)
-- [Common Mistakes](COMMON_MISTAKES.md)
-- [Data Disclaimer](DATA_DISCLAIMER.md)
 - [AI Use Guide](AI_USE_GUIDE.md)
-- [Glossary](GLOSSARY.md)
 
 Instructor, setup, and sharing guides:
 
-- [Workshop Plan](WORKSHOP_PLAN.md)
-- [Roadmap](ROADMAP.md)
+- [Maintainer Guide](MAINTAINER_GUIDE.md)
 - [GitHub Repository Guide](GITHUB_REPOSITORY_GUIDE.md)
-- [Release Checklist](RELEASE_CHECKLIST.md)
 - [Setup Guides](Setup_Guide/00_Quick_Start.md)
 
 
@@ -112,7 +106,7 @@ These notebooks extend the foundations rather than repeat them. Applied lab note
 - AI/LLM lab-summary review, adding human-in-the-loop scientific communication practice
 - career and academic advancement tracks, adding role-based synthetic lab scenarios and portfolio outputs
 
-Use [STUDENT_PROJECT_MENU.md](STUDENT_PROJECT_MENU.md) to choose a mini-project.
+Use [Learning_Path_Chooser.md](Learning_Path_Chooser.md) to choose a learning path, mini-project, or challenge.
 
 ## Data and Teaching Support
 
